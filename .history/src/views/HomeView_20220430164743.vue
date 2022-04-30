@@ -36,7 +36,7 @@ import CountrySelect from "@/components/CountrySelect.vue";
 export default {
   name: "HomeView",
   components: {
-    HomeView,
+    
     DataTitle,
     DataBoxes,
     CountrySelect,
