@@ -5,5 +5,3 @@ module.exports = defineConfig({
   assetsDir: "./",
   publicPath: "./",
 });
-
-// co
