@@ -5,7 +5,7 @@
     class="form-select mt-1 block w-full border p-3 rounded"
   >
     <option value="0">Select Country</option>
-    <option v-for="country in countries" :value="country.ID" :key="country">
+    <option v-for="country in countries" :value="country.ID" :key="">
       {{ country.Country }}
     </option>
   </select>
