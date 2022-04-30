@@ -1,0 +1,18 @@
+<template>
+  <select v-model="selected">
+    <option value=""></option>
+  </select>
+</template>
+
+<script>
+export default {
+  name: "CountrySelect",
+  props: ["countries"],
+  data() {
+    selected: 0;
+  },
+};
+</script>
+
+<style>
+</style>
