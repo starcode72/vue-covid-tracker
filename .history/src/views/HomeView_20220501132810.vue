@@ -34,7 +34,6 @@ import DataTitle from "../components/DataTitle.vue";
 import DataBoxes from "../components/DataBoxes.vue";
 import CountrySelect from "../components/CountrySelect.vue";
 // パスを@から通常の.ドットに変更することでnetlifyにdeploy可能になった
-
 // import DataTitle from "@/components/DataTitle.vue";
 // import DataBoxes from "@/components/DataBoxes.vue";
 // import CountrySelect from "@/components/CountrySelect.vue";

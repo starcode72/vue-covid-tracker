@@ -6,8 +6,7 @@
 </template>
 
 <script>
-// パスを@から通常の.ドットに変更することでnetlifyにdeploy可能になった
-
+パスを@からnetlifyにdeploy可能になった
 // import Header from "@/components/Header.vue";
 import Header from "./components/Header.vue";
 

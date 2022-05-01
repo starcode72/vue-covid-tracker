@@ -15,7 +15,11 @@
       <h3 class="text-3xl text-blue-900 font-bold mb-4">Deaths</h3>
       <div class="text-2xl mb-4">
         <span class="font-bold">New:</span>
+        {{ stats.NewDeaths }}
+        <span class="font-bold">New:</span>
         {{ numberWithCommas(stats.NewDeaths)}}
+        <span class="font-bold">Total:</span>
+        {{ stats.TotalDeaths }}
         <span class="font-bold">Total:</span>
         {{ numberWithCommas(stats.TotalDeaths)}}
       </div>

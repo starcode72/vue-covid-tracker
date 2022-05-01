@@ -17,6 +17,8 @@
         <span class="font-bold">New:</span>
         {{ numberWithCommas(stats.NewDeaths)}}
         <span class="font-bold">Total:</span>
+        {{ stats.TotalDeaths }}
+        <span class="font-bold">Total:</span>
         {{ numberWithCommas(stats.TotalDeaths)}}
       </div>
     </div>
